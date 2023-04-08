@@ -4,7 +4,7 @@ import inventoryData from "../inventory";
 import Shoes from "./Shoes";
 
 const Storefront = () => {
-    const [ inventory, setInventory ] = useState(inventoryData);
+    const [ inventory ] = useState(inventoryData);
 
     console.log(inventory);
   return (
